@@ -4,7 +4,7 @@ This folder contains hands-on notebooks demonstrating how to build Retrieval-Aug
 
 ## Contents
 
-### 1. `RAG_for_HTML_docs_with_Langchain_NVIDIA_AI_Endpoints.ipynb`
+### 1. [`RAG_for_HTML_docs_with_Langchain_NVIDIA_AI_Endpoints.ipynb`](./RAG_for_HTML_docs_with_Langchain_NVIDIA_AI_Endpoints.ipynb)
 This notebook walks through building a RAG pipeline for the NVIDIA Triton documentation website using [LangChain NVIDIA AI Endpoints](https://python.langchain.com/docs/integrations/text_embedding/nvidia_ai_endpoints). 
 It covers:
 - Downloading and chunking HTML documentation.
@@ -13,7 +13,7 @@ It covers:
 - Building and querying conversational retrieval chains with Mixtral and Llama3 models.
 - Example queries and streaming chat responses.
 
-### 2. `RAG_Langchain_with_Local_NIM.ipynb`
+### 2. [`RAG_Langchain_with_Local_NIM.ipynb`](./RAG_Langchain_with_Local_NIM.ipynb)
 This notebook demonstrates how to build a RAG pipeline using a locally hosted NIM microservice (e.g., Llama3-8b-instruct). 
 It covers:
 - Setting up and running the NIM container locally.
