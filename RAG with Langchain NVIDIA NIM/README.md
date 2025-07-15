@@ -1,4 +1,4 @@
-# Introduction to NVIDIA NIM™ Microservices
+# Retrieval-Augmented Generation (RAG) applications using NVIDIA NIM microservices and LangChain
 
 This folder contains hands-on notebooks demonstrating how to build Retrieval-Augmented Generation (RAG) applications using NVIDIA NIM microservices and LangChain. The examples focus on leveraging NVIDIA AI Endpoints for document retrieval, embedding generation, and conversational AI, with practical workflows for both cloud-hosted and locally deployed NIM models.
 
