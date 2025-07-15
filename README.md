@@ -3,21 +3,13 @@
 
 **[RAG Agents with LLMs](./RAG%20Agents%20with%20LLMs)**
 
-- **Microservices and Environment Setup:** Establishing a robust execution environment 
-- **LLM Interaction and Embedding Models:** Accessing and working with NVIDIA’s endpoints and embedding models   
-- **Document Processing and Vector Stores:** Loading, chunking, and indexing documents for semantic retrieval  
-- **Semantic Guardrailing:** Implementing safety checks to filter out potentially harmful or irrelevant responses in chatbots. 
+This project develops and evaluates Retrieval-Augmented Generation (RAG) systems powered by large language models (LLMs). It includes methods for maintaining and updating conversation "running state" through a chain approach, incorporating slot-filling and handling schema-conformant outputs. Techniques for working with large documents are also covered, such as splitting, processing, generating summaries, managing token context with sliding windows, and processing document chains. The project also focuses on integrating scalable vector databases for efficient retrieval of document chunks, which involves embedding generation, document chunking, and vector store querying. Evaluation components are provided in examining outputs, performing benchmark evaluations, and considering the productionalization of retrieval-augmented workflows. Additionally, instructions are given for deploying RAG chains via a simple API using LangServe, detailing endpoint setup and basic frontend integration for chatbot settings. Finally, The project explores semantic guardrailing techniques for filtering harmful or irrelevant chatbot responses, which includes generating synthetic input data, asynchronously embedding queries, training classifiers, and integrating these components into a chatbot event loop to adjust system prompts based on message quality.
 
 
 **[RAG with NVIDIA NIM and LangChain](./RAG%20with%20Langchain%20NVIDIA%20NIM)**
 
-This project creates of Retrieval-Augmented Generation (RAG) applications using NVIDIA NIM microservices and LangChain. 
-It focus on leveraging NVIDIA AI Endpoints for various tasks, including document retrieval, embedding generation, 
-and conversational AI, with practical workflows for both cloud-hosted and locally deployed NIM models.
+This project creates of Retrieval-Augmented Generation (RAG) applications using NVIDIA NIM microservices and LangChain. It focus on leveraging NVIDIA AI Endpoints for various tasks, including document retrieval, embedding generation, and conversational AI, with practical workflows for both cloud-hosted and locally deployed NIM models. It covers downloading and chunking HTML documentation, generating embeddings with NVIDIA's NV-Embed-QA model, storing embeddings in a FAISS vector store, and building and querying conversational retrieval chains with Mixtral and Llama3 models, including streaming chat responses. It details setting up and running the NIM container locally, generating embeddings using NVIDIA's cloud endpoint, storing and retrieving document embeddings with FAISS, and connecting LangChain to the local NIM endpoint for conversational QA flows.
 
 **[End-to-End RAG system](./End-to-End%20RAG%20system)**
 
-The project focuses on factual question-answering (QA) specifically related to Pittsburgh and CMU. 
-The system retrieves relevant documents and generates answers based on those documents. 
-Large language models (LLMs) are used to enhance the knowledge base with relevant documents, 
-improving the accuracy of answers related to history, culture, trivia, and upcoming events.
+This project implementates an End-to-End Retrieval Augmented Generation (RAG) system designed to answer factual questions specifically about Pittsburgh and CMU. The project involved raw data preparation from various sources, data annotation for testing and training, and quality estimation. The RAG system development leveraged LangChain's RAG stack and experimented with various strategies, including custom text splitters, different embedding models, multiple LLM models, diverse document retrieval methods (FAISS and CHROMA with similarity search and MMR), reranking, and Hypothetical Document Embeddings (HyDE) to enhance performance. The system's performance was evaluated on an unseen test set using answer recall, exact match, and F1 score. 
