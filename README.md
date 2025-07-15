@@ -1,7 +1,7 @@
 ## RAG Projects
 
 
-**[End-to-End RAG system](./End-to-End%20RAG%20system/README.md)**
+**[End-to-End RAG system](./End-to-End%20RAG%20system)**
 
 The project focuses on factual question-answering (QA) specifically related to Pittsburgh and CMU. 
 The system retrieves relevant documents and generates answers based on those documents. 
