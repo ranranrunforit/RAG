@@ -3,8 +3,6 @@
 
 **[RAG Agents with LLMs](./RAG%20Agents%20with%20LLMs)**
 
-This project contains a Retrieval-Augmented Generation (RAG) system with large language models.
-
 - **Microservices and Environment Setup:** Establishing a robust execution environment 
 - **LLM Interaction and Embedding Models:** Accessing and working with NVIDIA’s endpoints and embedding models   
 - **Document Processing and Vector Stores:** Loading, chunking, and indexing documents for semantic retrieval  
